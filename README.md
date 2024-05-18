@@ -11,7 +11,7 @@ config up and running in a few shell commands!
    ```
    mv ~/.zshcrc ~/.zshrc_backup
    ```
-3. If you already have a custom folder in your oh-my-zsh folder
+3. If you already have a custom folder in your oh-my-zsh folder, do the same thing
    ```
    mkdir -p ~/.oh-my-zsh/custom/backup_zsh && mv ~/.oh-my-zsh/custom/*.zsh ~/.oh-my-zsh/custom/backup_zsh/
    ```
