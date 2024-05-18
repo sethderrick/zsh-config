@@ -7,7 +7,7 @@ Exactly what it says. It's my zsh configuration
 1. Clone this repo to wherever you keep your repos on the box where you want to configure zsh
 2. If you already have a ~/.zshconfig back it up and delete the original like this:
    ```
-   mv ~/.zshconfig ~/.zshconfig_backup
+   mv ~/.zshcrc ~/.zshrc_backup
    ```
 3. If you already have a custom folder in your oh-my-zsh folder
    ```
