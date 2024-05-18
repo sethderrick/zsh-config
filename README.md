@@ -1,6 +1,8 @@
 # zsh-config
 
-Exactly what it says. It's my zsh configuration
+Exactly what it says. It's my zsh configuration. That means it's specific to how I like *my* shell to look and behave. 
+You can use mine as it is or customize it to your own taste. But it is damn handy to be able to have my whole shell 
+config up and running in a few shell commands!
 
 ### To build and use...
 
