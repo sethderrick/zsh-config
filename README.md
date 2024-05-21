@@ -9,7 +9,7 @@ config up and running in a few shell commands!
 1. Clone this repo to wherever you keep your repos on the box where you want to configure zsh
 2. If you already have a ~/.zshconfig back it up and delete the original like this:
    ```
-   mv ~/.zshcrc ~/.zshrc_backup
+   mv ~/.zshrc ~/.zshrc_backup
    ```
 3. If you already have a custom folder in your oh-my-zsh folder, do the same thing
    ```
