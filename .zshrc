@@ -20,3 +20,5 @@ source $ZSH/oh-my-zsh.sh
 # .zsh files in ~/.oh-my-zsh/custom/ per the directives of the 
 # OhMyZsh ptb
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
