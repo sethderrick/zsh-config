@@ -4,6 +4,8 @@ Exactly what it says. It's my zsh configuration. That means it's specific to how
 You can use mine as it is or customize it to your own taste. But it is damn handy to be able to have my whole shell 
 config up and running in a few shell commands!
 
+NOTE: Make sure you have Hack or Nerd fonts installed and you have p10k and autosuggestions already in your zsh 
+
 ### To build and use...
 
 1. Clone this repo to wherever you keep your repos on the box where you want to configure zsh
