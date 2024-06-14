@@ -37,4 +37,11 @@ NOTE: Make sure you have Hack or Nerd fonts installed and you have p10k and auto
    ```
    source ~/.zshrc
    ```
-7. ENJOY!!
+7. Source everything in the custom folder
+   ```
+   cd ~/.oh-my-zsh/custom/ 
+   for file in *.zsh; do
+      [ -r "$file" ] && [ -f "$file" ] && source "$file"
+   done
+   ```
+9. ENJOY!!
