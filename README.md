@@ -1,15 +1,19 @@
 # zsh-config
 
-Exactly what it says. It's my zsh configuration
+Exactly what it says. It's my zsh configuration. That means it's specific to how I like _my_ shell to look and behave.
+You can use mine as it is or customize it to your own taste. But it is damn handy to be able to have my whole shell
+config up and running in a few shell commands!
+
+NOTE: Make sure you have Hack or Nerd fonts installed and you have p10k and autosuggestions already in your zsh
 
 ### To build and use...
 
 1. Clone this repo to wherever you keep your repos on the box where you want to configure zsh
 2. If you already have a ~/.zshconfig back it up and delete the original like this:
    ```
-   mv ~/.zshconfig ~/.zshconfig_backup
+   mv ~/.zshrc ~/.zshrc_backup
    ```
-3. If you already have a custom folder in your oh-my-zsh folder
+3. If you already have a custom folder in your oh-my-zsh folder, do the same thing
    ```
    mkdir -p ~/.oh-my-zsh/custom/backup_zsh && mv ~/.oh-my-zsh/custom/*.zsh ~/.oh-my-zsh/custom/backup_zsh/
    ```
@@ -33,4 +37,11 @@ Exactly what it says. It's my zsh configuration
    ```
    source ~/.zshrc
    ```
-7. ENJOY!!
+7. Source everything in the custom folder
+   ```
+   cd ~/.oh-my-zsh/custom/
+   for file in *.zsh; do
+      [ -r "$file" ] && [ -f "$file" ] && source "$file"
+   done
+   ```
+8. ENJOY!!
