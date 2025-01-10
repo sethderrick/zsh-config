@@ -1,1 +1,1 @@
-export OLLAMA_MODELS="/Volumes/Backup Plus/_Models"
+# export OLLAMA_MODELS="/Volumes/Backup Plus/_Models"

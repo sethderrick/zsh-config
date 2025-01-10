@@ -5,4 +5,5 @@ alias nv="nvim"
 alias python="python3"
 alias vim="nv"
 alias zshconfig="nvim ~/.zshrc"
+alias cursor="/opt/Cursor/AppRun &"
 
