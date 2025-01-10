@@ -1,6 +1,5 @@
-alias hosts="sudo nano /etc/hosts"
-alias ifconfig="ifconfig -a" # display all network interfaces
+alias hosts="sudo nvim /etc/hosts"
+alias ifconfig="ip addr" # Modern Linux uses ip command
 alias myip="curl ifconfig.me"
-alias ports="sudo lsof -i -n -P" # list all open ports
-alias wifi="networksetup -getairportnetwork en1" # get current WiFi network
+alias ports="sudo ss -tulpn" # ss is the modern replacement for netstat
 
