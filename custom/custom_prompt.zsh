@@ -5,10 +5,6 @@ if [ -f /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.z
   source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 
 fi 
 
-if [ -f  /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then 
-  source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-fi 
-
 # Show virtual env name in prompt 
 function prompt_venv() {
   if [[ -n "$VIRTUAL_ENV" ]]; then
