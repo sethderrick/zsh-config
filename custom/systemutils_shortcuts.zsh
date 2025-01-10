@@ -5,4 +5,6 @@ alias reload="source ~/.zshrc"
 alias shutdown="shutdown -h now"
 alias top="top -o %CPU"
 alias update="sudo pacman -Syu" # Update using pacman
-
+alias pacman-clean="sudo pacman -Qdtq" # Clean unused packages
+alias yay-update="yay -Syu" # Update using yay
+alias yay-clean="yay -Qdtq" # Clean unused packages
